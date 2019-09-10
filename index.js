@@ -5,6 +5,7 @@ let tripId = 0;
 let passengerId = 0;
 
 
+<<<<<<< HEAD
 class Driver {
     constructor(name){
         this.id = ++driverId;
@@ -87,3 +88,16 @@ class Trip{
 
 
 
+=======
+class Driver{
+  constructor(name){
+    this.id = ++driverId;
+    this.name = name
+  }
+  
+  setTrip(trip){
+    this.driverId = driver.id
+  }
+ 
+}
+>>>>>>> 30000b27927b7e6801d89e583f8245389e0e35ed
